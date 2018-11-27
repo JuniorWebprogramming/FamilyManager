@@ -1,0 +1,51 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700');
+
+body{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0;
+}
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 2px solid #555555;
+}
+
+#mainContainerDiv{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#contentDiv{
+	height:100%;
+	padding:0;
+	margin:0;
+	position:absolute;
+	right:0;
+	float:right;
+	background-color:#403f4c!important;
+	box-sizing: initial!important;
+}
+
+#sideNav{
+	box-sizing:initial!important;
+}
